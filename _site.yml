@@ -6,7 +6,7 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Resume"
-      href: resume.html
+      href: Resume.html
     - text: "Dashboard"
       href: dashboard.html
   right:

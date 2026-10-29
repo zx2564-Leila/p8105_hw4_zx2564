@@ -17,7 +17,7 @@ This website includes my academic and professional experience and an interactive
 
 ## Explore
 
-- [My resume](resume.html)
+- [My resume](Resume.html)
 - [Interactive dashboard](dashboard.html)
 
 ## Contact
