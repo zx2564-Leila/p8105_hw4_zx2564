@@ -1,0 +1,25 @@
+---
+title: "Zhihan (Leila) Xia"
+output: html_document
+---
+
+# Welcome!
+
+I am an MPH student in Biostatistics at Columbia University’s Mailman School of Public Health, with an expected graduation date of June 2027.
+
+My interests include environmental epidemiology, chronic disease prevention, and quantitative methods for population health.
+
+## About me
+
+I am interested in using data to understand how environmental exposures affect health, particularly breast cancer risk.
+
+This website includes my academic and professional experience and an interactive dashboard created for P8105: Data Science I.
+
+## Explore
+
+- [My resume](resume.html)
+- [Interactive dashboard](dashboard.html)
+
+## Contact
+
+Email: [zx2564@cumc.columbia.edu](mailto:zx2564@cumc.columbia.edu)

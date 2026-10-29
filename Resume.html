@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Zhihan (Leila) Xia</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="resume.html">Resume</a>
+</li>
+<li>
+  <a href="dashboard.html">Dashboard</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/zx2564-Leila">GitHub</a>
+</li>
+<li>
+  <a href="mailto:zx2564@cumc.columbia.edu">Email</a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/leila-xia-4ab730359">LinkedIn</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<div id="zhihan-leila-xia" class="section level2">
+<h2>Zhihan (Leila) Xia</h2>
+<p>New York, NY</p>
+<p><a href="mailto:zx2564@cumc.columbia.edu">Email</a> | <a
+href="https://github.com/zx2564-Leila">GitHub</a> | <a
+href="https://www.linkedin.com/in/leila-xia-4ab730359">LinkedIn</a></p>
+<p>Biostatistics graduate student with a pharmaceutical background and
+research experience in environmental epidemiology, health policy, and
+clinical data analysis. Interested in using statistical methods and
+evidence synthesis to improve population health.</p>
+</div>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<div id="columbia-university-mailman-school-of-public-health"
+class="section level3">
+<h3>Columbia University Mailman School of Public Health</h3>
+<p><strong>Master of Public Health, Biostatistics</strong><br />
+September 2025 – May 2027 (expected)</p>
+</div>
+<div id="university-of-california-san-diego" class="section level3">
+<h3>University of California San Diego</h3>
+<p><strong>Certificate of Biomedical Engineering</strong><br />
+March 2024 – August 2024<br />
+GPA: 4.00/4.00</p>
+</div>
+<div id="zhejiang-university-of-technology" class="section level3">
+<h3>Zhejiang University of Technology</h3>
+<p><strong>Bachelor of Pharmaceutical Engineering</strong><br />
+September 2021 – June 2025<br />
+GPA: 3.72/4.00</p>
+</div>
+</div>
+<div id="research-and-professional-experience" class="section level2">
+<h2>Research and Professional Experience</h2>
+<div id="university-of-oxford-department-of-education"
+class="section level3">
+<h3>University of Oxford, Department of Education</h3>
+<p><strong>Research Intern | July 2026 – Present</strong></p>
+<ul>
+<li>Conduct literature reviews and comparative policy analyses on
+advocacy effectiveness across England, Wales, and Ireland.</li>
+<li>Apply longitudinal and survival analysis methods to support policy
+evaluation.</li>
+<li>Collaborate on research outputs and policy recommendations.</li>
+</ul>
+</div>
+<div id="ehesp-french-school-of-public-health" class="section level3">
+<h3>EHESP — French School of Public Health</h3>
+<p><strong>Data Analysis Research Intern | April 2026 – June
+2026</strong></p>
+<ul>
+<li>Conducted exploratory analyses of breast cancer exposome data from
+three French cohorts.</li>
+<li>Built reproducible R workflows for data quality assessment,
+preprocessing, and visualization.</li>
+<li>Evaluated more than 120 environmental chemicals using missingness
+assessment, outlier detection, distribution analysis, and Spearman
+correlation.</li>
+<li>Prepared analytical datasets for observational epidemiologic
+analyses.</li>
+</ul>
+</div>
+<div id="indivisible-east-bay" class="section level3">
+<h3>Indivisible East Bay</h3>
+<p><strong>Health Policy Research Intern | March 2026 – May
+2026</strong></p>
+<ul>
+<li>Researched U.S. healthcare programs, including Medicare, Medicaid,
+and the Affordable Care Act.</li>
+<li>Synthesized findings into reports and supported policy brief
+development.</li>
+<li>Conducted literature reviews and data collection for healthcare
+policy evaluation.</li>
+</ul>
+</div>
+<div id="green-city-hospital" class="section level3">
+<h3>Green City Hospital</h3>
+<p><strong>Clinical Data Analyst Intern, Ophthalmology | June 2025 –
+August 2025</strong></p>
+<ul>
+<li>Cleaned and organized de-identified electronic medical record
+data.</li>
+<li>Standardized demographic, diagnosis, treatment, and follow-up
+variables.</li>
+<li>Conducted descriptive analyses and data validation using Excel, SQL,
+and R.</li>
+<li>Collaborated with clinicians on analytical datasets and summary
+reports.</li>
+</ul>
+</div>
+<div
+id="shanghai-institute-of-materia-medica-chinese-academy-of-sciences"
+class="section level3">
+<h3>Shanghai Institute of Materia Medica, Chinese Academy of
+Sciences</h3>
+<p><strong>Research Analysis Intern | September 2024 – November
+2024</strong></p>
+<ul>
+<li>Supported structure-based virtual screening using PyMOL, Maestro,
+and Python.</li>
+<li>Integrated simulation outputs into a structured SQL database.</li>
+<li>Visualized docking scores and chemical similarity to support drug
+target prioritization.</li>
+</ul>
+</div>
+<div id="ajon-medical-device-co.-ltd." class="section level3">
+<h3>Ajon Medical Device Co., Ltd.</h3>
+<p><strong>Research Assistant Intern | July 2024 – August
+2024</strong></p>
+<ul>
+<li>Analyzed more than 3,000 blood and urine assay records using
+Python.</li>
+<li>Prepared descriptive reports supporting four research and
+development projects.</li>
+<li>Analyzed customer relationship management data using correlation and
+clustering methods.</li>
+</ul>
+</div>
+<div id="sanbicom-pharmaceutical-co.-ltd." class="section level3">
+<h3>Sanbicom Pharmaceutical Co., Ltd.</h3>
+<p><strong>Pharmaceutical Quality Inspector Intern | June 2024 – July
+2024</strong></p>
+<ul>
+<li>Processed more than 200 quality-control assay batches using Excel
+and SQL.</li>
+<li>Created Power BI dashboards to monitor yield deviation and batch
+consistency.</li>
+</ul>
+</div>
+</div>
+<div id="selected-projects" class="section level2">
+<h2>Selected Projects</h2>
+<div id="financial-anomaly-detection-and-risk-analysis"
+class="section level3">
+<h3>Financial Anomaly Detection and Risk Analysis</h3>
+<p><strong>Project Lead | June 2025 – August 2025</strong></p>
+<ul>
+<li>Developed fraud-detection models using more than 138,000
+transactions.</li>
+<li>Compared logistic regression and random forest models using
+cross-validation and hyperparameter tuning.</li>
+<li>Created monitoring dashboards and stakeholder reports.</li>
+</ul>
+</div>
+<div id="customer-churn-prediction-and-analysis" class="section level3">
+<h3>Customer Churn Prediction and Analysis</h3>
+<p><strong>Project Lead | March 2025 – May 2025</strong></p>
+<ul>
+<li>Built data preprocessing and feature engineering workflows using
+Python and Apache Spark.</li>
+<li>Trained logistic regression, random forest, and KNN models.</li>
+<li>Used cross-validation and feature importance to identify churn
+predictors.</li>
+</ul>
+</div>
+<div id="credit-risk-modeling-and-prediction" class="section level3">
+<h3>Credit Risk Modeling and Prediction</h3>
+<p><strong>Project Lead | November 2024 – February 2025</strong></p>
+<ul>
+<li>Combined multiple data sources to calculate applicant risk
+scores.</li>
+<li>Applied feature selection and classification methods.</li>
+<li>Developed risk-monitoring reports and dashboards.</li>
+</ul>
+</div>
+</div>
+<div id="skills" class="section level2">
+<h2>Skills</h2>
+<ul>
+<li><strong>Programming:</strong> R, SAS, Python, SQL</li>
+<li><strong>Statistical methods:</strong> Regression, survival analysis,
+classification, hypothesis testing, epidemiologic analysis</li>
+<li><strong>Data visualization:</strong> ggplot2, Tableau, Power BI</li>
+<li><strong>Research:</strong> Data cleaning, quality assessment,
+reproducible workflows, literature review, evidence synthesis,
+scientific writing</li>
+<li><strong>Languages:</strong> Mandarin Chinese (native), English
+(advanced), Spanish (fluent)</li>
+</ul>
+</div>
+<div id="certifications" class="section level2">
+<h2>Certifications</h2>
+<ul>
+<li>Google Advanced Data Analytics Certificate, 2025</li>
+<li>First Aid Certificate, 2022</li>
+</ul>
+</div>
+<div id="conference-paper" class="section level2">
+<h2>Conference Paper</h2>
+<p>Ding, W., Feng, L., Xia, Z., &amp; Xiong, X. (2024). <em>Association
+Between Dietary Caffeine Intake and Hepatitis C Virus Infection in
+Adults: A Cross-Sectional Study.</em> Accepted to the 5th International
+Conference on Bioinformatics and Intelligent Computing (2025).</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

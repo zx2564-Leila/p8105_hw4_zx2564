@@ -1,0 +1,137 @@
+---
+title: "Resume"
+output: html_document
+---
+
+## Zhihan (Leila) Xia
+
+New York, NY
+
+[Email](mailto:zx2564@cumc.columbia.edu) |
+[GitHub](https://github.com/zx2564-Leila) |
+[LinkedIn](https://www.linkedin.com/in/leila-xia-4ab730359)
+
+Biostatistics graduate student with a pharmaceutical background and research experience in environmental epidemiology, health policy, and clinical data analysis. Interested in using statistical methods and evidence synthesis to improve population health.
+
+## Education
+
+### Columbia University Mailman School of Public Health
+
+**Master of Public Health, Biostatistics**  
+September 2025 – May 2027 (expected)
+
+### University of California San Diego
+
+**Certificate of Biomedical Engineering**  
+March 2024 – August 2024  
+GPA: 4.00/4.00
+
+### Zhejiang University of Technology
+
+**Bachelor of Pharmaceutical Engineering**  
+September 2021 – June 2025  
+GPA: 3.72/4.00
+
+## Research and Professional Experience
+
+### University of Oxford, Department of Education
+
+**Research Intern | July 2026 – Present**
+
+- Conduct literature reviews and comparative policy analyses on advocacy effectiveness across England, Wales, and Ireland.
+- Apply longitudinal and survival analysis methods to support policy evaluation.
+- Collaborate on research outputs and policy recommendations.
+
+### EHESP — French School of Public Health
+
+**Data Analysis Research Intern | April 2026 – June 2026**
+
+- Conducted exploratory analyses of breast cancer exposome data from three French cohorts.
+- Built reproducible R workflows for data quality assessment, preprocessing, and visualization.
+- Evaluated more than 120 environmental chemicals using missingness assessment, outlier detection, distribution analysis, and Spearman correlation.
+- Prepared analytical datasets for observational epidemiologic analyses.
+
+### Indivisible East Bay
+
+**Health Policy Research Intern | March 2026 – May 2026**
+
+- Researched U.S. healthcare programs, including Medicare, Medicaid, and the Affordable Care Act.
+- Synthesized findings into reports and supported policy brief development.
+- Conducted literature reviews and data collection for healthcare policy evaluation.
+
+### Green City Hospital
+
+**Clinical Data Analyst Intern, Ophthalmology | June 2025 – August 2025**
+
+- Cleaned and organized de-identified electronic medical record data.
+- Standardized demographic, diagnosis, treatment, and follow-up variables.
+- Conducted descriptive analyses and data validation using Excel, SQL, and R.
+- Collaborated with clinicians on analytical datasets and summary reports.
+
+### Shanghai Institute of Materia Medica, Chinese Academy of Sciences
+
+**Research Analysis Intern | September 2024 – November 2024**
+
+- Supported structure-based virtual screening using PyMOL, Maestro, and Python.
+- Integrated simulation outputs into a structured SQL database.
+- Visualized docking scores and chemical similarity to support drug target prioritization.
+
+### Ajon Medical Device Co., Ltd.
+
+**Research Assistant Intern | July 2024 – August 2024**
+
+- Analyzed more than 3,000 blood and urine assay records using Python.
+- Prepared descriptive reports supporting four research and development projects.
+- Analyzed customer relationship management data using correlation and clustering methods.
+
+### Sanbicom Pharmaceutical Co., Ltd.
+
+**Pharmaceutical Quality Inspector Intern | June 2024 – July 2024**
+
+- Processed more than 200 quality-control assay batches using Excel and SQL.
+- Created Power BI dashboards to monitor yield deviation and batch consistency.
+
+## Selected Projects
+
+### Financial Anomaly Detection and Risk Analysis
+
+**Project Lead | June 2025 – August 2025**
+
+- Developed fraud-detection models using more than 138,000 transactions.
+- Compared logistic regression and random forest models using cross-validation and hyperparameter tuning.
+- Created monitoring dashboards and stakeholder reports.
+
+### Customer Churn Prediction and Analysis
+
+**Project Lead | March 2025 – May 2025**
+
+- Built data preprocessing and feature engineering workflows using Python and Apache Spark.
+- Trained logistic regression, random forest, and KNN models.
+- Used cross-validation and feature importance to identify churn predictors.
+
+### Credit Risk Modeling and Prediction
+
+**Project Lead | November 2024 – February 2025**
+
+- Combined multiple data sources to calculate applicant risk scores.
+- Applied feature selection and classification methods.
+- Developed risk-monitoring reports and dashboards.
+
+## Skills
+
+- **Programming:** R, SAS, Python, SQL
+- **Statistical methods:** Regression, survival analysis, classification, hypothesis testing, epidemiologic analysis
+- **Data visualization:** ggplot2, Tableau, Power BI
+- **Research:** Data cleaning, quality assessment, reproducible workflows, literature review, evidence synthesis, scientific writing
+- **Languages:** Mandarin Chinese (native), English (advanced), Spanish (fluent)
+
+## Certifications
+
+- Google Advanced Data Analytics Certificate, 2025
+- First Aid Certificate, 2022
+
+## Conference Paper
+
+Ding, W., Feng, L., Xia, Z., & Xiong, X. (2024).
+*Association Between Dietary Caffeine Intake and Hepatitis C Virus Infection in Adults: A Cross-Sectional Study.*
+Accepted to the 5th International Conference on Bioinformatics and Intelligent Computing (2025).

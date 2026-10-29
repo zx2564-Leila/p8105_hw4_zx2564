@@ -1,0 +1,21 @@
+name: "leila-website"
+output_dir: "."
+navbar:
+  title: "Zhihan (Leila) Xia"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Dashboard"
+      href: dashboard.html
+  right:
+    - text: "GitHub"
+      href: https://github.com/zx2564-Leila
+    - text: "Email"
+      href: mailto:zx2564@cumc.columbia.edu
+    - text: "LinkedIn"
+      href: https://www.linkedin.com/in/leila-xia-4ab730359
+output:
+  html_document:
+    theme: cosmo
